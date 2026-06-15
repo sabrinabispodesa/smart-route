@@ -47,7 +47,7 @@ function mostrarCaminho() {
     
     const ruasBloqueadas = [];
     document.querySelectorAll('.linha-bloqueada').forEach(linha => {
-        const partes = lineId = linha.id.split('-');
+        const partes = linha.id.split('-');
         if (partes.length >= 3) {
             ruasBloqueadas.push(partes[1] + "-" + partes[2]);
         }
